@@ -11,12 +11,16 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <style>
     body{
+        animation-name:lakshya;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
         background: radial-gradient(#e66465, #9198e5);
         height: 900px;
         margin: 0 !important;
+        
     }
     li{
-        color: white;
+        
         font-family: 'Montserrat', sans-serif;
         padding: 10px 20px;
         font-size: 25px;
@@ -26,23 +30,41 @@
     }
     a{
         text-decoration: none;
-        color: aliceblue;
+        color: #1CF04B;
     }
     .nav{
         background: rgba(0, 0, 0, 0.568);
        /* position: fixed; */
     }
+
+
+    @keyframes lakshya{
+        
+        /* 0%{
+            background: radial-gradient(#e66465, #9198e5);
+        }
+        50%{
+            background: radial-gradient( );
+        }
+        100%{
+            background: radial-gradient(#e66465, #9198e5);
+        } */
+    }
 </style>
 <body >
     <div>
+        <div style="display: flex; position: absolute; padding: 7px 0 0 10px;">
+            <img class="logo" src="/png.png" alt="png" height="40px">
+        </div>
         <div class="nav">
             <ul style="display: flex; list-style-type:none ; justify-content: center; margin: 0;">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Friends</a></li>
-                <li><a href="#">Socials</a></li>
-                <li><a href="#">More</a></li>
+                <strong><li><a href="#">Home</a></li></strong>
+                <strong><li><a href="#">Friends</a></li></strong>
+                <strong><li><a href="#">Socials</a></li></strong>
+                <strong><li><a href="#">More</a></li></strong>
             </ul>
         </div>
+
     </div>
 </body>
 </html>
