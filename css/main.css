@@ -1,5 +1,5 @@
 body{
-    /* background-color: rgb(36, 161, 157); */
+    background-color: #FAEEE7;
     margin: 0 !important;
 }
 #hype{
@@ -22,12 +22,34 @@ a{
         padding: 0 1%;
         align-items: center;
 }
+#home{
+ font-family: 'Aclonica', sans-serif;
+ padding: 0px 10px;
+ align-content: center;
+}
+#gallery{
+ font-family: 'Aclonica', sans-serif;
+ padding: 0px 10px;
+}
+#about{
+ font-family: 'Aclonica', sans-serif;
+ padding: 0px 10px;
+}
+#social{
+ font-family: 'Aclonica', sans-serif;
+ padding: 0px 10px;
+} 
+
 #nav-text{
-    font-family: 'Aclonica', sans-serif;
-    display: flex;
-    
-    align-items: center;
-    /* padding: 1%;  */
+    /* font-family: 'Aclonica', sans-serif; */
+    /* display: flex; */
+    /* justify-items: flex-end; */
+    /* align-items: center; */
+    position: absolute;
+    /* left: 54% ; */
+    right: .1%;
+    padding: 1.5vw;
+     
   
 }
 #nav{
@@ -35,6 +57,11 @@ a{
     display: flex;
     margin: 0;
     height: 50px;
+    border: solid #FAEEE7 ;
+    border-top: 0;
+    border-bottom: -10px;
+    border-left: 0;
+    border-right: 0;
 }
 #list{
     padding: 1vw    ;
