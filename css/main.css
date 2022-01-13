@@ -60,10 +60,16 @@ a{
 #mh{
     font-family: 'Aclonica', sans-serif;
     color:#FFC900 ;
-        
+
 }
 #in{
     font-family: 'Aclonica', sans-serif;
     color: #FFC900;
-    
+    position: relative;
+    left: 80%;
+}
+#place{
+        position: absolute;
+        left: 25%;
+        top: 25%;
 }
