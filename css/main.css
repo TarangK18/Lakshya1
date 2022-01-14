@@ -25,7 +25,7 @@ a{
     padding: 0 1%;
     align-items: center;
     text-shadow:2px 1px rgb(217, 96, 152);
-    text-decoration: underline 2px solid ;
+/*     text-decoration: underline 2px solid ; */
 }
 .home:hover{
     color: rgb(217, 96, 152);
