@@ -17,14 +17,15 @@ a{
 }
 
 #heading{
-        font-family: 'Aclonica', sans-serif;
-        color: #FAEEE7;
-        display: flex ;
-        /* font-size: ; */  
-        margin: 0 ;
-        padding: 0 1%;
-        align-items: center;
-        text-shadow:2px 1px rgb(217, 96, 152);
+    font-family: 'Aclonica', sans-serif;
+    color: #FAEEE7;
+    display: flex ;
+    /* font-size: ; */  
+    margin: 0 ;
+    padding: 0 1%;
+    align-items: center;
+    text-shadow:2px 1px rgb(217, 96, 152);
+    text-decoration: underline 2px solid ;
 }
 .home:hover{
     color: rgb(217, 96, 152);
@@ -97,7 +98,7 @@ a{
 #mh{
     font-family: 'Aclonica', sans-serif;
     color:#FFC900 ;
-
+    
 }
 #in{
     font-family: 'Aclonica', sans-serif;
@@ -118,7 +119,7 @@ a{
 }
 #content-box{
     margin:75px 180px;
-    height: 1500px;
+    height: 1100px;
     background-color: bisque;
     border-style: groove ;
     box-shadow: 2px 2px 5px #9198e5;
@@ -128,6 +129,7 @@ a{
     padding: 10px;
     color:#143A52 ;
     text-shadow: 10px;
+    text-decoration: underline 2px dotted ;
 }
 #container{
     display:grid;
@@ -163,12 +165,24 @@ a{
 }
 #about-box{
     font-family:'Aclonica', sans-serif;
+    text-align: center;
+    margin-bottom: 300px;
+    
 }
 #social{
-    background-color: rgb(50, 82, 136);
-    align-self: center;
-    height: 100px;
-    width: 100px;
-    display: flex;
-    justify-self: center;
+    background-color: #9198e5;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+    /* position: fixed; */
+    
+}
+#social-link{
+    font-family: 'Aclonica', sans-serif;
+    color:#143A52 ;
+    /* text-align: center; */
+    margin: 0 80px;
+}
+#social-link:hover{
+    background-color: rgba(255, 255, 255, 0.144);
+    border-radius: 8px;
 }
